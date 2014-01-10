@@ -1,0 +1,27 @@
+
+
+// se trae todos los cambios
+
+git pull origin master
+
+____________________________________________________________________________________
+
+
+//Ver estatus del archivo cambios localmente
+
+git status
+
+____________________________________________________________________________________
+
+
+//Para subir un archivo
+
+git add .
+
+git commit -m "mensaje"
+
+git push origin master 
+
+
+//Muestra el historial
+gitk 
