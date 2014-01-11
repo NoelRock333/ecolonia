@@ -1,0 +1,13 @@
+-- Enunciados de las consultas para la base de datos de eColonia
+
+1.- Obtener a todos los colonos que viven en la calle X
+2.- Obtener todos los colonos X (género)
+3.- Obtener todos los miembros del comité de barrio X
+4.- Obtener a todos los colonos que pesan menos de X kg
+5.- Obtener todas las autoridades que sean Secretarias del Estado X
+6.- El colono X se cambió de casa y de colonia a otra colonia miembro de eColonia. Actualizar los datos.
+7.- Actualizar el número de teléfono de X colono.
+8.- Actualizar el periodo de X elemento de la tabla Autoridad
+9.- Agregar un nuevo de Autoridad al Catalogo de Autoridades
+10.- Dar de baja a a una Colonia
+11.- Agregar una colonia

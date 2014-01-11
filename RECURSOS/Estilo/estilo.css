@@ -1,0 +1,153 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body,html{
+	height:100%;
+	background:#F3F3F3;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.form{
+	background:#FFF;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:solid 8px #E4E6E5;
+	border-radius:10px;
+	padding:0 32px 32px 32px;
+	box-shadow:
+}
+
+.form table{
+	width:100%;
+}
+
+.form label{
+	display:block;
+	color: #818C88;
+	margin-bottom:3px;
+	margin-left:10px;
+}
+
+.form legend{
+	background:#879393;
+	color:#FFF;
+	padding:15px;
+	min-width:155px;
+	border-radius:5px;
+	font-weight:bold;
+	text-align:center;
+	font-size:18px;
+	margin-left:-10px;
+}
+
+.form input[type='text']{
+	font-size:16px;
+	padding:8px 6px;
+	background:#E6E6E6;
+	border-radius:5px;
+	border-top:solid 2px #DADADA;
+	border-right:none;
+	border-bottom:none;
+	border-left:solid 3px #DADADA;
+	width:95%;
+}
+
+.form td{
+	padding-right:30px;
+	padding-top:10px;
+}
+
+.btn-submit{
+	background:#76C7C0;
+	color:#FFF;
+	font-weight:bold;
+	border-top:none;
+	border-bottom:solid 4px #53ADA4;
+	border-left:none;
+	border-right:none;
+	border-radius:5px;
+	font-size:16px;
+	padding:13px 20px;
+	min-width:190px;
+}
+
+.btn-cancel{
+	background:#E8635A;
+	color:#FFF;
+	font-weight:bold;
+	border-top:none;
+	border-bottom:solid 4px #E3534B;
+	border-left:none;
+	border-right:none;
+	border-radius:5px;
+	font-size:16px;
+	padding:13px 20px;
+	min-width:190px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.floatLeft{
+	float:left;
+}
+.floatRight{
+	float:right;
+}
+
+.userList li .fa{
+	color:#B1B9BB;
+	margin-right:6px;
+}
+.userList li{
+	color: #818C88;
+	list-style:none;
+	border-bottom:1px solid #AFB7B9;
+	width:100%;
+	padding: 16px 0 16px 10px;
+}
+
+#content{
+	width:1024px;
+	margin:30px auto;
+	min-height:600px;
+	margin-bottom:150px;
+}
+
+#main{
+	width:100%;
+	min-width:1024px;
+	height: auto;
+	min-height:100%;
+}
+
+#main:after{
+	width: 100%;
+	height:150px;
+	display:block;
+	clear:both;
+}
+
+#footer{
+	height: 150px;
+	margin: -150px auto 0;
+	background:#76C7C0;
+}
+
+#header{
+	height:150px;
+	padding-top:44px;
+	background:#76C7C0;
+	min-width:1024px;
+}
+
+#logo{
+	background:url(images/logo.png) no-repeat;
+	margin:auto;
+	height:94px;
+	width:290px;
+}
